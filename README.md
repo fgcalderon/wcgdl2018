@@ -1,2 +1,1 @@
-# wcgdl2018
-Código de ejemplo de como crear Custom Post Type y Custom Taxonomies
+Tema creado para WordPress utilizando Bootstrap 3

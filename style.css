@@ -1,0 +1,238 @@
+/*
+Theme Name: WordCamp Guadalajara
+Author: Francisco Calderón
+Author URI: http://fg.calderon.it
+Description: Tema para WordPress utilizando Bootstrap 3, jQuery 1.11, Modernizr, Font: Open Sans;
+Version: 1.0
+*/
+
+
+
+/* 	BODY
+================================================== */
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/* 	CAROUSEL
+================================================== */
+
+
+/* 	FOOTER
+================================================== */
+footer{
+	background: #d3d3d3;
+	border-top: 10px solid #162035;
+	font-size: 0.9em;
+	margin-top: 40px;
+	padding: 1em 0 2em 0;
+}
+
+footer .footer-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100px;
+}
+
+
+/* 	RESPONSIVE VIDEO
+================================================== */
+.flexible-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.flexible-container object,
+.flexible-container embed,
+.flexible-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* 	ALIGN TEXT
+================================================== */
+.center{
+	text-align: center;
+}
+
+/* 	MARGINS AND PADDING
+================================================== */
+.margin-top-none{
+	margin-top: 0;
+}
+
+.margin-top-sm{
+	margin-top: 10px;
+}
+
+.margin-top-md{
+	margin-top: 20px;
+}
+
+.margin-top-lg{
+	margin-top: 40px;
+} 
+
+.margin-bottom-none{
+	margin-bottom: 0;
+}
+
+.margin-bottom-sm{
+	margin-bottom: 10px;
+}
+
+.margin-bottom-md{
+	margin-bottom: 20px;
+}
+
+.margin-bottom-lg{
+	margin-bottom: 40px;
+} 
+
+.padding-top-sm{
+	padding-top: 5px;
+}
+
+.margin-right-md{
+	margin-right: 20px;
+}
+
+/* 	COMMENT FORM
+================================================== */
+input#submit {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+input#submit:focus,
+input#submit:active:focus,
+input#submit.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+input#submit:hover,
+input#submit:focus {
+  color: #333;
+  text-decoration: none;
+}
+input#submit:active,
+input#submit.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+input#submit.disabled,
+input#submit[disabled],
+fieldset[disabled] input#submit {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  opacity: .65;
+}
+
+
+input#submit {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+input#submit:hover,
+input#submit:focus,
+input#submit:active,
+input#submit.active,
+.open > .dropdown-toggleinput#submit {
+  color: #fff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+input#submit:active,
+input#submit.active,
+.open > .dropdown-toggleinput#submit {
+  background-image: none;
+}
+input#submit.disabled,
+input#submit[disabled],
+fieldset[disabled] input#submit,
+input#submit.disabled:hover,
+input#submit[disabled]:hover,
+fieldset[disabled] input#submit:hover,
+input#submit.disabled:focus,
+input#submit[disabled]:focus,
+fieldset[disabled] input#submit:focus,
+input#submit.disabled:active,
+input#submit[disabled]:active,
+fieldset[disabled] input#submit:active,
+input#submit.disabled.active,
+input#submit[disabled].active,
+fieldset[disabled] input#submit.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+input#submit .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+
+.comment-reply-title{
+  font-size: 20px;
+}
+
+#commentform{
+  font-size: 0.8em;
+}
+
+
+/* 	IMAGES
+================================================== */
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignleft, .alignleft img{
+	margin: 12px 24px 12px 0;
+	margin: 0.857142857rem 1.714285714rem 0.857142857rem 0;
+}
+img.alignright, .alignright img {
+	margin: 12px 0 12px 24px;
+	margin: 0.857142857rem 0 0.857142857rem 1.714285714rem;
+}
+img.aligncenter, .aligncenter img {
+	margin-top: 12px;
+	margin-top: 0.857142857rem;
+	margin-bottom: 12px;
+	margin-bottom: 0.857142857rem;
+}
+.alignleft img, .alignright img, .aligncenter img{ margin-top: 0;}
+
